@@ -1,3 +1,3 @@
-module github.com/zhanbai/go-skeleton
+module github.com/zhanbai/gos
 
 go 1.15

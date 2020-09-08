@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	_ "github.com/zhanbai/go-skeleton/router"
+	_ "github.com/zhanbai/gos/router"
 )
 
 func main() {
