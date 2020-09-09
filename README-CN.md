@@ -15,7 +15,8 @@ $ git clone https://github.com/zhanbai/gos.git project-name
 # 快速开始
 
 ```
-$ cd project-name
+# 进入项目目录，然后复制并修改配置文件
+$ cd project-name && cp config/config.sample.yaml
 # 运行 main.go 然后在浏览器访问 0.0.0.0:8080/hello (在 Windows 下
 "localhost:8080/hello")
 $ go run main.go

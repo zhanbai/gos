@@ -15,7 +15,8 @@ $ git clone https://github.com/zhanbai/gos.git project-name
 # Quick start
 
 ```
-$ cd project-name
+# Enter the project directory, then copy and modify the configuration file
+$ cd project-name && cp config/config.sample.yaml config/config.yaml
 # run main.go and visit 0.0.0.0:8080/hello (for windows "localhost:8080/hello") on browser
 $ go run main.go
 ```
