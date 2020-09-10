@@ -2,6 +2,8 @@ English | [中文](./README-CN.md)
 
 <h1 align="center">go skeleton</h1>
 
+> Docs: http://blog.zhanxiaobai.com/gos-docs/
+
 # Introductions
 
 Based on the original skeleton program of go, the purpose is to quickly start go and standardize project management.

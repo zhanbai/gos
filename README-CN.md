@@ -2,6 +2,8 @@
 
 <h1 align="center">go skeleton</h1>
 
+> 文档: http://blog.zhanxiaobai.com/gos-docs/
+
 # 介绍
 
 基于 Go 原生的骨架程序，旨在为了快速入门 Go 和规范项目管理。
