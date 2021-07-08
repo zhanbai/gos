@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/zhanbai/gos/library/config"
-	_ "github.com/zhanbai/gos/router"
+	"gos/library/config"
+	_ "gos/router"
 )
 
 func main() {

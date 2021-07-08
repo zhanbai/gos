@@ -1,4 +1,4 @@
-module github.com/zhanbai/gos
+module gos
 
 go 1.15
 
