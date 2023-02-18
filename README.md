@@ -1,4 +1,4 @@
-# <p align="center">[Gins](https://github.com/zhanbai/gos)</p>
+# <p align="center">[Gos](https://github.com/zhanbai/gos)</p>
 
 ## 说明
 
