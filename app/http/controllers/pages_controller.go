@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"fmt"
+	"gos/pkg/view"
 	"net/http"
 )
 
@@ -9,5 +9,5 @@ type PagesController struct {
 }
 
 func (*PagesController) Home(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "Hello World!")
+	view.Render(w, "pages.home", nil)
 }
