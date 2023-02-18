@@ -1,15 +1,11 @@
 package main
 
 import (
-	"fmt"
+	"gos/bootstrap"
 	"net/http"
 )
 
-func handlerFunc(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "Hello World!")
-}
-
 func main() {
-	http.HandleFunc("/", handlerFunc)
-	http.ListenAndServe(":3000", nil)
+	r := bootstrap.SetupRoute()
+	http.ListenAndServe(":3000", r)
 }
